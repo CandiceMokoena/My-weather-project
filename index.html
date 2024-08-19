@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>🌩️</h1>
+      <form id="search-form">
+        <div class="answer">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            id="search-input"
+            required
+            autofocus
+          />
+        </div>
+        <div class="go">
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div class="weather-container">
+        <div class="weather-details">
+          <h1 id="current-city">Johannesburg</h1>
+          <p>
+            <span class="why" id="time">Saturday 18:54</span>, scattered clouds
+          </p>
+          <p>
+            Humidity: <strong>44%</strong>, Wind: <strong>0.51 km/h</strong>
+          </p>
+        </div>
+        <div class="temperature" id="temperature">🌥️15&deg;C</div>
+      </div>
+      <ul>
+        <li>
+          Sat <br />
+          ☀️ <br />
+          <div class="yes"><strong>19&deg;</strong> / 10&deg;</div>
+        </li>
+        <li>
+          Sun <br />
+
+          ☀️ <br />
+          <div class="yes"><strong>16&deg;</strong> / 7&deg;</div>
+        </li>
+        <li>
+          Mon <br />
+
+          ☀️ <br />
+          <div class="yes"><strong>15&deg;</strong> / 3&deg;</div>
+        </li>
+        <li>
+          Tues <br />
+
+          ☀️ <br />
+          <div class="yes"><strong>17&deg;</strong> / 7&deg;</div>
+        </li>
+        <li>
+          Wed <br />
+
+          ☀️ <br />
+          <div class="yes"><strong>16&deg;</strong> / 10&deg;</div>
+        </li>
+      </ul>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/CandiceMokoena"
+          ><i>Teballo Candice Mokoena</i></a
+        >
+      </footer>
+    </header>
+    <script src="appp.js"></script>
+  </body>
+</html>
